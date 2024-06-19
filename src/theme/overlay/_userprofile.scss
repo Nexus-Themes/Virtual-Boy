@@ -8,7 +8,7 @@
     margin-right: 1px;
 }
 /* add @ to profile pop up */
-.userTagWithNickname__0a777::before {
+.userTagWithNickname_c9ccf6::before {
     content: "@";
     color: var(--header-primary);
     line-height: 18px;
@@ -28,16 +28,16 @@ div[class*="lineClamp2Plus"] {
     bottom: 955px;
     left: 573px;
 }
-.layer__6b5c3:has(img[src*="801089753038061669"]) .profileBadges__1f2ab {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .profileBadges_f89da9 {
     padding-right: 30px;
 }
 
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b {
     position: relative;
     overflow: visible;
 }
 
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab {
     width: 22px;
     height: 22px;
     background-color: transparent !important;
@@ -49,11 +49,11 @@ div[class*="lineClamp2Plus"] {
     overflow: visible;
     box-sizing: border-box;
 }
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab:before,
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab:after {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before,
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
     pointer-events: none;
 }
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab:before {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before {
     content: "";
     display: flex;
     height: 22px;
@@ -63,7 +63,7 @@ div[class*="lineClamp2Plus"] {
     background-size: contain;
     border-radius: 0px;
 }
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab:after {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
     content: "Virtual Boy Theme Dev";
     width: max-content;
     height: fit-content;
@@ -77,6 +77,6 @@ div[class*="lineClamp2Plus"] {
     opacity: 0;
     transition: opacity 0ms linear;
 }
-.layer__6b5c3:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_bf6444 > .divider_e6f9ab:hover:after {
+.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:hover:after {
     opacity: 1;
 }

@@ -6,7 +6,7 @@
 
 /* align chatbox to bottom */
 :is(main, section)[class^="chatContent"] > form > *:first-child {
-    margin-bottom: 0px;
+    margin-bottom: -20px !important;
 }
 
 /* center chatbox contents, no border radius */
@@ -17,8 +17,70 @@
 }
 
 // Autocomplete
-.theme-dark .autocomplete_df266d {
-    background-color: rgb(8, 8, 8);
+.theme-dark .autocomplete_f23da8 {
+    background-color: rgb(8, 8, 8); /* ----- Aligned Chatbox ----- */
+    /* align edges of chatbox to sides */
+    :is(main, section)[class^="chatContent"] > form {
+        padding: 0px;
+    }
+
+    /* align chatbox to bottom */
+    :is(main, section)[class^="chatContent"] > form > *:first-child {
+        margin-bottom: 0px !important;
+    }
+
+    /* center chatbox contents, no border radius */
+    :is(main, section)[class^="chatContent"] > form > *:first-child > * {
+        padding-top: 4px;
+        // min-height: 49px;
+        border-radius: 0px;
+    }
+
+    // Autocomplete
+    .theme-dark .autocomplete_f23da8 {
+        background-color: rgb(8, 8, 8);
+    }
+
+    /* slowmode/typing indicator */
+    :is(main, section)[class^="chatContent"] > form > *:last-child[class^="typing"] {
+        top: -24px;
+        right: 0px;
+        margin-left: auto;
+        width: fit-content;
+        padding-left: 2px;
+        padding-right: 9px;
+        border-top-left-radius: 0px;
+        background-color: var(--channeltextarea-background);
+    }
+
+    /* Fix replies */
+    main[class^="chatContent"] > form > * > [class^="attachedBars"] {
+        min-height: unset !important;
+        padding-bottom: 4px;
+    }
+    /* Hide gift button */
+    .buttons_d0696b > .button_dd4f85 {
+        display: none;
+    }
+    .contentWrapper_af5dbb {
+        background-color: black;
+        border-radius: 8px;
+        -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+        box-shadow: var(--elevation-stroke), var(--elevation-high);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: grid;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        grid-template-rows: 24px auto;
+        grid-row-gap: 8px;
+        height: 100%;
+        overflow: hidden;
+        padding-top: 16px;
+        position: relative;
+        z-index: 1;
+    }
 }
 
 /* slowmode/typing indicator */
@@ -39,10 +101,10 @@ main[class^="chatContent"] > form > * > [class^="attachedBars"] {
     padding-bottom: 4px;
 }
 /* Hide gift button */
-.buttons_ce5b56 > .button_afdfd9 {
+.buttons_d0696b > .button_dd4f85 {
     display: none;
 }
-.contentWrapper__321ed {
+.contentWrapper_af5dbb {
     background-color: black;
     border-radius: 8px;
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);

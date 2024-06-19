@@ -1,4 +1,4 @@
-.container_debb33 {
+.container_b2ca13 {
     height: auto !important;
     padding: 6px 6px;
     flex-direction: column;
@@ -6,11 +6,11 @@
     row-gap: 0px;
 }
 
-.container_debb33 > div {
+.container_b2ca13 > div {
     width: 100%;
 }
 
-.container_debb33 > div:nth-child(2) {
+.container_b2ca13 > div:nth-child(2) {
     justify-content: space-between;
     max-height: 0;
     overflow: hidden;
@@ -19,14 +19,14 @@
     transition-timing-function: ease-in-out;
 }
 
-.container_debb33:hover > div:nth-child(2) {
+.container_b2ca13:hover > div:nth-child(2) {
     max-height: 32px;
 }
 
-.container_debb33 > div:nth-child(2) > button {
+.container_b2ca13 > div:nth-child(2) > button {
     width: 100%;
 }
-.container_e1958d > div:nth-child(2) {
+.container_adcaac > div:nth-child(2) {
     justify-content: space-between;
     max-height: 0;
     overflow: hidden;
@@ -34,39 +34,39 @@
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
 }
-.dot__67e1c {
+.dot_ccd671 {
     display: none;
 }
-.container_e1958d:hover > div:nth-child(2) {
+.container_adcaac:hover > div:nth-child(2) {
     max-height: 32px;
 }
 
-.container_e1958d > div:nth-child(2) > button {
+.container_adcaac > div:nth-child(2) > button {
     width: 100%;
     scale: 1.5;
 }
 /*User Panel*/
-.withTagAsButton_e22174,
-.withTagless__058f8 {
+.withTagAsButton_b2ca13,
+.withTagless_b2ca13 {
     min-width: 212px !important;
 }
-.container_debb33 button {
+.container_b2ca13 button {
     margin: 1.1px;
     background: var(--bg-overlay-4, var(--background-primary));
 }
-.contents__322f4 {
+.contents_dd4f85 {
     padding-right: 7px;
 }
-.container_debb33 .hovered__5a165,
-.hoverRoll__3ea9e.forceHover__733de:not(.disabled__6cbf4) .default__74311 {
+.container_b2ca13 .hovered_c0d6c6,
+.hoverRoll_c0d6c6.forceHover_c0d6c6:not(.disabled_c0d6c6) .default_c0d6c6 {
     opacity: 1 !important;
     transform: none;
 }
 
-.container_debb33 .hovered__5a165::before {
+.container_b2ca13 .hovered_c0d6c6::before {
     content: "@";
 }
 
-.default__74311 {
+.default_c0d6c6 {
     margin-top: 15px;
 }
