@@ -1,0 +1,12 @@
+// The only reason this file exists is to make sure the core elements of the app are recolored.
+// Shoutouts to discord for fucking the colors with their new layout. :thumbsup:
+
+// Essentials: Basic Backgrounds.
+.layer__960e4,
+.baseLayer__960e4,
+.guilds_c48ade {
+    background: var(--bg-overlay-1) !important;
+}
+.content_f75fb0 {
+    background: var(--bg-overlay-2) !important;
+}

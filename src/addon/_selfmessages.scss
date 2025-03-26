@@ -1,121 +1,124 @@
 //Selfmessages. Heavily based on Discord 11's Message bubbles
 /* Message Bubbles*/
 /* New Messages bubble */
-#app-mount .message_d5deea[data-author-self="true"] {
+#app-mount .message__5126c[data-is-self="true"] {
     margin-left: auto;
     width: auto;
     padding-left: 48px;
     padding-right: 72px !important;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .container_b558d0 {
+#app-mount .message__5126c[data-is-self="true"] .container_b7e1cb {
     direction: rtl;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .contents_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .contents_c19a55 {
     display: block;
     width: fit-content;
     margin-left: auto;
     margin-right: 8px;
 }
-#app-mount .message_d5deea.selected_d5deea[data-author-self="true"] .contents_ec86aa {
+#app-mount .message__5126c.selected__5126c[data-is-self="true"] .contents_c19a55 {
     width: 100%;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .timestamp_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .timestamp_c19a55 {
     left: unset;
     right: 8px;
 }
-#app-mount .message_d5deea[data-author-self="true"] .repliedMessage_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .repliedMessage_c19a55 {
     margin-left: auto;
 }
 
-#app-mount .replying_d5deea[data-author-self="true"] .contents_ec86aa .messageContent_ec86aa::before,
-#app-mount .mentioned_d5deea[data-author-self="true"] .contents_ec86aa .messageContent_ec86aa::before {
+#app-mount .replying__5126c[data-is-self="true"] .contents_c19a55 .messageContent_c19a55::before,
+#app-mount .mentioned__5126c[data-is-self="true"] .contents_c19a55 .messageContent_c19a55::before {
     left: unset;
     right: 0;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .contents_ec86aa .messageContent_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .contents_c19a55 .messageContent_c19a55 {
     margin-left: auto;
 }
-#app-mount .message_d5deea[data-author-self="true"] a:not(.embed_ad0b71 .embedAuthorNameLink_ad0b71) {
+#app-mount .message__5126c[data-is-self="true"] a:not(.embed__623de .embedAuthorNameLink__623de) {
     margin-left: auto;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .embedAuthor_ad0b71 {
+#app-mount .message__5126c[data-is-self="true"] .embedAuthor__623de {
     direction: ltr;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .avatar_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .avatar_c19a55 {
     left: unset;
     right: 16px;
 }
-
-#app-mount .message_d5deea[data-author-self="true"] .header_ec86aa {
+#app-mount .message__5126c[data-is-self="true"] .avatarDecoration_c19a55 {
+    left: unset;
+    right: 12px;
+}
+#app-mount .message__5126c[data-is-self="true"] .header_c19a55 {
     display: flex;
     flex-direction: row-reverse;
 }
-#app-mount .message_d5deea[data-author-self="true"] .header_ec86aa span {
+#app-mount .message__5126c[data-is-self="true"] .header_c19a55 span {
     margin-left: 0.25rem;
     margin-right: unset;
 }
 
-#app-mount .message_d5deea[data-author-self="true"] .repliedMessage_ec86aa:before {
+#app-mount .message__5126c[data-is-self="true"] .repliedMessage_c19a55:before {
     display: none;
 }
 
-#app-mount .contents_ec86aa > .messageContent_ec86aa {
+#app-mount .contents_c19a55 > .messageContent_c19a55 {
     overflow: visible;
 }
 
-#app-mount .contents_ec86aa pre {
+#app-mount .contents_c19a55 pre {
     max-width: 100%;
 }
 
-#app-mount .contents_ec86aa .messageContent_ec86aa {
+#app-mount .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--background-secondary) !important;
     padding: 8px;
     margin-left: unset;
     border-radius: 0px;
     width: fit-content;
 }
-#app-mount .contents_ec86aa {
+#app-mount .contents_c19a55 {
     display: inline-block;
     max-width: 100%;
 }
-#app-mount .message_d5deea {
+#app-mount .message__5126c {
     max-width: 100%;
 }
-#app-mount .message_d5deea:hover:not(.replying_d5deea):not(.mentioned_d5deea) .contents_ec86aa .messageContent_ec86aa,
-#app-mount .message_d5deea.selected_d5deea:not(.replying_d5deea):not(.mentioned_d5deea) .contents_ec86aa .messageContent_ec86aa {
+#app-mount .message__5126c:hover:not(.replying__5126c):not(.mentioned__5126c) .contents_c19a55 .messageContent_c19a55,
+#app-mount .message__5126c.selected__5126c:not(.replying__5126c):not(.mentioned__5126c) .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .message_d5deea.compact_ec86aa.wrapper_ec86aa[data-author-self="true"] .messageContent_ec86aa {
+#app-mount .message__5126c.compact_c19a55.wrapper_c19a55[data-is-self="true"] .messageContent_c19a55 {
     display: flex;
 }
 
-#app-mount .compact_ec86aa.wrapper_ec86aa {
+#app-mount .compact_c19a55.wrapper_c19a55 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-#app-mount .mentioned_d5deea.compact_ec86aa .contents_ec86aa .messageContent_ec86aa::before:not([data-author-self="true"]) {
+#app-mount .mentioned__5126c.compact_c19a55 .contents_c19a55 .messageContent_c19a55::before:not([data-is-self="true"]) {
     left: 4px;
 }
-#app-mount .replying_d5deea.compact_ec86aa .contents_ec86aa .messageContent_ec86aa::before:not([data-author-self="true"]) {
+#app-mount .replying__5126c.compact_c19a55 .contents_c19a55 .messageContent_c19a55::before:not([data-is-self="true"]) {
     left: 4px;
 }
 
-#app-mount .mentioned_d5deea .contents_ec86aa .messageContent_ec86aa {
+#app-mount .mentioned__5126c .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--background-mentioned);
 }
-#app-mount .mentioned_d5deea:hover .contents_ec86aa .messageContent_ec86aa,
-#app-mount .mentioned_d5deea.selected_d5deea .contents_ec86aa .messageContent_ec86aa {
+#app-mount .mentioned__5126c:hover .contents_c19a55 .messageContent_c19a55,
+#app-mount .mentioned__5126c.selected__5126c .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--background-mentioned-hover);
 }
-#app-mount .mentioned_d5deea .contents_ec86aa .messageContent_ec86aa::before {
+#app-mount .mentioned__5126c .contents_c19a55 .messageContent_c19a55::before {
     background-color: var(--info-warning-foreground);
     content: "";
     position: absolute;
@@ -129,11 +132,11 @@
     border-radius: 1.5px;
     z-index: 1;
 }
-#app-mount .mentioned_d5deea:before {
+#app-mount .mentioned__5126c:before {
     display: none;
 }
 
-#app-mount .repliedMessage_ec86aa {
+#app-mount .repliedMessage_c19a55 {
     background-color: var(--background-message-hover);
     margin-bottom: 0;
     padding: 6px;
@@ -142,14 +145,14 @@
     max-width: 100%;
 }
 
-#app-mount .replying_d5deea .contents_ec86aa .messageContent_ec86aa {
+#app-mount .replying__5126c .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--brand-experiment-05a);
 }
-#app-mount .replying_d5deea:hover .contents_ec86aa .messageContent_ec86aa,
-#app-mount .replying_d5deea.selected_d5deea .contents_ec86aa .messageContent_ec86aa {
+#app-mount .replying__5126c:hover .contents_c19a55 .messageContent_c19a55,
+#app-mount .replying__5126c.selected__5126c .contents_c19a55 .messageContent_c19a55 {
     background-color: var(--brand-experiment-10a);
 }
-#app-mount .replying_d5deea .contents_ec86aa .messageContent_ec86aa::before {
+#app-mount .replying__5126c .contents_c19a55 .messageContent_c19a55::before {
     background-color: var(--brand-experiment);
     content: "";
     position: absolute;
@@ -163,9 +166,9 @@
     border-radius: 1.5px;
     z-index: 1;
 }
-.replying_d5deea:before {
+.replying__5126c:before {
     display: none;
 }
-.repliedMessage_ec86aa:before {
+.repliedMessage_c19a55:before {
     display: none;
 }

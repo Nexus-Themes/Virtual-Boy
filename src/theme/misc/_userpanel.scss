@@ -1,4 +1,4 @@
-.container_b2ca13 {
+.container__37e49 {
     height: auto !important;
     padding: 6px 6px;
     flex-direction: column;
@@ -6,11 +6,11 @@
     row-gap: 0px;
 }
 
-.container_b2ca13 > div {
+.container__37e49 > div {
     width: 100%;
 }
 
-.container_b2ca13 > div:nth-child(2) {
+.container__37e49 > div:nth-child(2) {
     justify-content: space-between;
     max-height: 0;
     overflow: hidden;
@@ -19,14 +19,14 @@
     transition-timing-function: ease-in-out;
 }
 
-.container_b2ca13:hover > div:nth-child(2) {
+.container__37e49:hover > div:nth-child(2) {
     max-height: 32px;
 }
 
-.container_b2ca13 > div:nth-child(2) > button {
+.container__37e49 > div:nth-child(2) > button {
     width: 100%;
 }
-.container_adcaac > div:nth-child(2) {
+.container_e131a9 > div:nth-child(2) {
     justify-content: space-between;
     max-height: 0;
     overflow: hidden;
@@ -34,14 +34,14 @@
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
 }
-.dot_ccd671 {
+.dot__148e9 {
     display: none;
 }
-.container_adcaac:hover > div:nth-child(2) {
+.container_e131a9:hover > div:nth-child(2) {
     max-height: 32px;
 }
 
-.container_adcaac > div:nth-child(2) > button {
+.container_e131a9 > div:nth-child(2) > button {
     width: 100%;
     scale: 1.5;
 }
@@ -50,23 +50,31 @@
 .withTagless_b2ca13 {
     min-width: 212px !important;
 }
-.container_b2ca13 button {
+.container__37e49 button {
     margin: 1.1px;
     background: var(--bg-overlay-4, var(--background-primary));
 }
-.contents_dd4f85 {
+.contents__201d5 {
     padding-right: 7px;
 }
-.container_b2ca13 .hovered_c0d6c6,
-.hoverRoll_c0d6c6.forceHover_c0d6c6:not(.disabled_c0d6c6) .default_c0d6c6 {
+.container__37e49 .hovered__0263c,
+.hoverRoll__0263c.forceHover__0263c:not(.disabled__0263c) .default__0263c {
     opacity: 1 !important;
     transform: none;
 }
 
-.container_b2ca13 .hovered_c0d6c6::before {
+.container__37e49 .hovered__0263c::before {
     content: "@";
 }
 
-.default_c0d6c6 {
+.default__0263c {
     margin-top: 15px;
+}
+.visual-refresh .sidebar_c48ade:after {
+    display: none;
+}
+.panels_c48ade {
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
 }

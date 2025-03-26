@@ -1,5 +1,5 @@
-:root {
-    --version: "Virtual Boy V1.5.1";
+.visual-refresh.visual-refresh {
+    --version: "Virtual Boy V2.0";
     --background-message-hover: none !important;
     --background-mentioned: none !important;
     --background-mentioned-hover: none !important;
@@ -33,6 +33,12 @@
     --background-secondary: rgb(2, 2, 2);
     --background-secondary-alt: rgb(3, 3, 3);
     --background-tertiary: rgb(5, 5, 5);
+    --bg-overlay-chat: var(--background-tertiary);
+    --bg-overlay-floating: var(--background-floating);
+    --bg-overlay-1: var(--background-primary);
+    --bg-overlay-2: var(--background-secondary);
+    --bg-overlay-3: var(--background-secondary-alt);
+    --bg-overlay-4: var(--background-tertiary);
     --black: var(--black-500);
     --border-strong: hsl(var(--white-500-hsl) / 0.16);
     --border-subtle: hsl(var(--white-500-hsl) / 0.08);
