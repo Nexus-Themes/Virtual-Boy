@@ -18,11 +18,11 @@
 
 
 # About Virtual Boy by [Riddim GLiTCH](https://github.com/Riddim-GLiTCH/)
-Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an amoled background and red accents. <br>
-## NOTE: Please check my discord server for issues and notices regarding this theme!
+Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an AMOLED background and red accents. <br>
+## NOTE: Please check my Discord server for issues and notices regarding this theme!
 
-## Virtual Boy is customizable. You can easily swap the colors with these modiefiers:
-#### Virtual Boy supports [Colorways][colorways] now, Customize your theme with ease!
+## Virtual Boy is customizable. You can easily swap the colors with these modifiers:
+#### Virtual Boy supports [Colorways][colorways] now; customize your theme with ease!
 ##### Note: Custom Colorways work best if the values for `Primary`, `Secondary`, and `Tertiary` are put to 0
 
 ![Screenshot of the user-editable variables][edit-img]
@@ -34,9 +34,9 @@ Virtual Boy is a Discord theme based on a failed games console by Nintendo of th
 ![compact-preview][compact-preview]
 
 
-## Easily tell What messages are yours.
+## Easily tell what messages are yours.
 ![selfmessage-preview][selfmessage-preview]<br>
-With the new SelfMessages addon, Your messages will be shifted to the right side of the screen. Now you wont be confused when someone in the conversation has the same name as you!
+With the new SelfMessages addon, Your messages will be shifted to the right side of the screen. Now you won't be confused when someone in the conversation has the same name as you!
 
 Note: This addon requires the use of my [Self-Messages plugin][selfmessages] to function!
 
@@ -52,7 +52,7 @@ Note: This addon requires the use of my [Self-Messages plugin][selfmessages] to 
 
 #### Replugged
 > Install the theme [here][replugged]. <br>
-> if this link breaks, simply download the replugged bundle from the [releasese][releases] tab and extract it into your themes folder.
+> If this link breaks, simply download the Replugged bundle from the [releases][releases] tab and extract it into your themes folder.
 
 ## Why did you make this theme?
 This is my first ever properly finished Discord theme. I made it cuz I was working on a previous theme with an ex partner of mine, but that project died off due to a breakup. I really wanted to make my own theme though, so I set out to make this.
@@ -67,11 +67,11 @@ Yes please! Help is always appreciated! Just make a [pull request][pulls], or le
 
 ### Credits
 - [Saltssaumure](https://github.com/Saltssaumure) - For helping me set up the theme properly, the modified settings pane, and the CSS-rules to make everything squared.
-- [Blade04208](https://github.com/Blade04208) - for the watermarking tools used to display version numbers in the settings panel.
+- [Blade04208](https://github.com/Blade04208) - For the watermarking tools used to display version numbers in the settings panel.
 - [DaBluLite](https://github.com/DaBluLite) - For the improved user account details in the settings pane, and for helping set up [Colorways][colorways] compatibility.
 - aoithesceneryhoarder from the Vencord server - For the message bubbles and for the improved channel category dividers.
 - [f53](https://f53.dev/) from the Vencord Server - For the improved chat input area, and the extended markdown fixes.
-- [Vendicated](https://github.com/Vendicated) - for the About Me cut-off fix.
+- [Vendicated](https://github.com/Vendicated) - For the About Me cut-off fix.
 - [bernesealexxx](https://bernesealexxx.carrd.co/) from the Replugged server - for the CSS rules that re-add the "@" symbol back to usernames.
 - zeylogger - for the unread pill modification in the channels.
 - Barnyard - For the theme's Logo.
