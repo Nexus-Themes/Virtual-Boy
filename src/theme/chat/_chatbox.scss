@@ -3,10 +3,12 @@
 :is(main, section)[class^="chatContent"] > form {
     padding: 0px;
 }
-
+.container_c48ade {
+    --custom-chat-input-margin-bottom: 0px !important;
+}
 /* align chatbox to bottom */
 :is(main, section)[class^="chatContent"] > form > *:first-child {
-    margin-bottom: -20px !important;
+    // margin-bottom: -20px !important;
 }
 
 /* center chatbox contents, no border radius */
