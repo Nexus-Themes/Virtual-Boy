@@ -28,16 +28,16 @@ div[class*="lineClamp2Plus"] {
     bottom: 955px;
     left: 573px;
 }
-.layer_cd0de5:has(img[src*="801089753038061669"]) .profileBadges_f89da9 {
+.layer_da8173:has(img[src*="801089753038061669"]) .profileBadges_f89da9 {
     padding-right: 30px;
 }
 
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b {
     position: relative;
     overflow: visible;
 }
 
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab {
     width: 22px;
     height: 22px;
     background-color: transparent !important;
@@ -49,11 +49,11 @@ div[class*="lineClamp2Plus"] {
     overflow: visible;
     box-sizing: border-box;
 }
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before,
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before,
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
     pointer-events: none;
 }
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:before {
     content: "";
     display: flex;
     height: 22px;
@@ -63,7 +63,7 @@ div[class*="lineClamp2Plus"] {
     background-size: contain;
     border-radius: 0px;
 }
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:after {
     content: "Virtual Boy Theme Dev";
     width: max-content;
     height: fit-content;
@@ -77,6 +77,6 @@ div[class*="lineClamp2Plus"] {
     opacity: 0;
     transition: opacity 0ms linear;
 }
-.layer_cd0de5:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:hover:after {
+.layer_da8173:has(img[src*="801089753038061669"]) .userPopoutOverlayBackground_c69a7b > .divider_e6f9ab:hover:after {
     opacity: 1;
 }
