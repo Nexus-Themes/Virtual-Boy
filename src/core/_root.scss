@@ -8,5 +8,6 @@
     --VBaccent: 0 100% 50%;
     --VBaccent-muted: 0 100% 39.2%;
     --VBaccent-dimmest: 0 100% 17.6%;
-    --text-shadow-size: 1px; /*Default: 1px*/
+    --VBtext-shadow: 1px; /* Default 1px */
+    --VBtext-shadow-accent: 0 100% 50%; /* Default identical to VBaccent */
 }
