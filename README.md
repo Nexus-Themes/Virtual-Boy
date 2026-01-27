@@ -16,6 +16,9 @@
 [download]:    https://github.com/Riddim-GLiTCH/Virtual-Boy/releases/latest/download/virtual-boy.theme.css
 [replugged]:   https://replugged.dev/install?identifier=Riddim-GLiTCH/Virtual-Boy&source=github
 
+# Note: This repo is now archived. Version 2 is now in development
+For updates, visit https://github.com/nexus-themes/Virtual-Boy-v2
+
 
 # About Virtual Boy by [Riddim GLiTCH](https://github.com/Riddim-GLiTCH/)
 Virtual Boy is a Discord theme based on a failed games console by Nintendo of the same name. It sports an AMOLED background and red accents. <br>
